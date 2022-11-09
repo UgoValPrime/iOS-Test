@@ -16,10 +16,11 @@
 # Architecture
    The architecture of the project follows the principles of DRY and MVVM.
 
-# 💭 What I could have done better in attempting this test
+# What I could have done better in attempting this test
      Handle error messages properly with more contexts.
      Test end to end.
      Rather than userdefaults, realm could have been used , given more time.
-     Code clean up.
+     Code clean up(file arrangement, removing magic strings and print statement
+     )
      A better user Interface.
      
