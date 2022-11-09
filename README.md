@@ -20,7 +20,6 @@
      Handle error messages properly with more contexts.
      Test end to end.
      Rather than userdefaults, realm could have been used , given more time.
-     Code clean up(file arrangement, removing magic strings and print statement
-     )
+     Code clean up(file arrangement, removing magic strings and print statement.)
      A better user Interface.
      
