@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GitModels
 
 class FavoritesViewController: UIViewController {
     

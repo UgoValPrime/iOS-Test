@@ -26,38 +26,24 @@
 		7082DB9D291709FC00400374 /* GitHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DB9A291709FC00400374 /* GitHomeViewController.swift */; };
 		7082DB9E29170B5A00400374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DB5F291705AA00400374 /* AppDelegate.swift */; };
 		7082DB9F29170B5B00400374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DB5F291705AA00400374 /* AppDelegate.swift */; };
-		7082DBA22917127400400374 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBA12917127400400374 /* UIView+Extension.swift */; };
-		7082DBA32917127400400374 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBA12917127400400374 /* UIView+Extension.swift */; };
-		7082DBA42917127400400374 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBA12917127400400374 /* UIView+Extension.swift */; };
-		7082DBA6291712AE00400374 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBA5291712AE00400374 /* UserDefaults+Extension.swift */; };
-		7082DBA7291712AE00400374 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBA5291712AE00400374 /* UserDefaults+Extension.swift */; };
-		7082DBA8291712AE00400374 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBA5291712AE00400374 /* UserDefaults+Extension.swift */; };
 		7082DBAA2918256600400374 /* GitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBA92918256600400374 /* GitDetailsViewController.swift */; };
 		7082DBAB2918256600400374 /* GitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBA92918256600400374 /* GitDetailsViewController.swift */; };
 		7082DBAC2918256600400374 /* GitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBA92918256600400374 /* GitDetailsViewController.swift */; };
-		7082DBAE29182FD600400374 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBAD29182FD600400374 /* UIImage+Extension.swift */; };
-		7082DBAF29182FD600400374 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBAD29182FD600400374 /* UIImage+Extension.swift */; };
-		7082DBB029182FD600400374 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBAD29182FD600400374 /* UIImage+Extension.swift */; };
-		7082DBB4291831FC00400374 /* GitDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBB3291831FC00400374 /* GitDataModel.swift */; };
-		7082DBB5291831FC00400374 /* GitDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBB3291831FC00400374 /* GitDataModel.swift */; };
-		7082DBB6291831FC00400374 /* GitDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBB3291831FC00400374 /* GitDataModel.swift */; };
-		7082DBB92918349D00400374 /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBB82918349D00400374 /* HttpUtility.swift */; };
-		7082DBBA2918349D00400374 /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBB82918349D00400374 /* HttpUtility.swift */; };
-		7082DBBB2918349D00400374 /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBB82918349D00400374 /* HttpUtility.swift */; };
 		7082DBBD291834E500400374 /* GitResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBBC291834E500400374 /* GitResource.swift */; };
 		7082DBBE291834E500400374 /* GitResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBBC291834E500400374 /* GitResource.swift */; };
 		7082DBBF291834E500400374 /* GitResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBBC291834E500400374 /* GitResource.swift */; };
 		7082DBC12918358400400374 /* GitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBC02918358400400374 /* GitViewModel.swift */; };
 		7082DBC22918358400400374 /* GitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBC02918358400400374 /* GitViewModel.swift */; };
 		7082DBC32918358400400374 /* GitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBC02918358400400374 /* GitViewModel.swift */; };
-		7082DBC529183ABE00400374 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBC429183ABE00400374 /* Constants.swift */; };
-		7082DBC629183ABE00400374 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBC429183ABE00400374 /* Constants.swift */; };
-		7082DBC729183ABE00400374 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBC429183ABE00400374 /* Constants.swift */; };
 		7082DBCE291AB43D00400374 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBCD291AB43D00400374 /* FavoritesViewController.swift */; };
 		7082DBCF291AB43D00400374 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBCD291AB43D00400374 /* FavoritesViewController.swift */; };
 		7082DBD0291AB43D00400374 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082DBCD291AB43D00400374 /* FavoritesViewController.swift */; };
 		7082DBF9291ABD8E00400374 /* GitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7082DBF8291ABD8E00400374 /* GitNetwork.framework */; };
 		7082DBFA291ABD8E00400374 /* GitNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7082DBF8291ABD8E00400374 /* GitNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		70BDD4C4291D476F003EC0C8 /* GitModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BDD4C2291D476F003EC0C8 /* GitModels.framework */; };
+		70BDD4C5291D476F003EC0C8 /* GitModels.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70BDD4C2291D476F003EC0C8 /* GitModels.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		70BDD4C6291D4770003EC0C8 /* GitUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BDD4C3291D476F003EC0C8 /* GitUtility.framework */; };
+		70BDD4C7291D4770003EC0C8 /* GitUtility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70BDD4C3291D476F003EC0C8 /* GitUtility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +71,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				7082DBFA291ABD8E00400374 /* GitNetwork.framework in Embed Frameworks */,
+				70BDD4C7291D4770003EC0C8 /* GitUtility.framework in Embed Frameworks */,
+				70BDD4C5291D476F003EC0C8 /* GitModels.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,17 +95,13 @@
 		7082DB922917097C00400374 /* GitDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDetailsView.swift; sourceTree = "<group>"; };
 		7082DB96291709A700400374 /* GitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTableViewCell.swift; sourceTree = "<group>"; };
 		7082DB9A291709FC00400374 /* GitHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHomeViewController.swift; sourceTree = "<group>"; };
-		7082DBA12917127400400374 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		7082DBA5291712AE00400374 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		7082DBA92918256600400374 /* GitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDetailsViewController.swift; sourceTree = "<group>"; };
-		7082DBAD29182FD600400374 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
-		7082DBB3291831FC00400374 /* GitDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDataModel.swift; sourceTree = "<group>"; };
-		7082DBB82918349D00400374 /* HttpUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
 		7082DBBC291834E500400374 /* GitResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitResource.swift; sourceTree = "<group>"; };
 		7082DBC02918358400400374 /* GitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewModel.swift; sourceTree = "<group>"; };
-		7082DBC429183ABE00400374 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7082DBCD291AB43D00400374 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		7082DBF8291ABD8E00400374 /* GitNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BDD4C2291D476F003EC0C8 /* GitModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BDD4C3291D476F003EC0C8 /* GitUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +110,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7082DBF9291ABD8E00400374 /* GitNetwork.framework in Frameworks */,
+				70BDD4C6291D4770003EC0C8 /* GitUtility.framework in Frameworks */,
+				70BDD4C4291D476F003EC0C8 /* GitModels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +158,6 @@
 			children = (
 				7082DBC9291A3C1800400374 /* Favorite */,
 				7082DBB72918347A00400374 /* Network */,
-				7082DBA02917125400400374 /* Utils */,
 				7082DB8F2917090900400374 /* Home */,
 				7082DB5F291705AA00400374 /* AppDelegate.swift */,
 				7082DB61291705AA00400374 /* SceneDelegate.swift */,
@@ -204,7 +189,6 @@
 		7082DB8F2917090900400374 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				7082DBB22918308A00400374 /* Model */,
 				7082DBB12918307F00400374 /* ViewModel */,
 				7082DB912917094200400374 /* Controller */,
 				7082DB902917093200400374 /* Views */,
@@ -230,17 +214,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		7082DBA02917125400400374 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				7082DBA12917127400400374 /* UIView+Extension.swift */,
-				7082DBA5291712AE00400374 /* UserDefaults+Extension.swift */,
-				7082DBAD29182FD600400374 /* UIImage+Extension.swift */,
-				7082DBC429183ABE00400374 /* Constants.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		7082DBB12918307F00400374 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,18 +222,9 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		7082DBB22918308A00400374 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7082DBB3291831FC00400374 /* GitDataModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		7082DBB72918347A00400374 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				7082DBB82918349D00400374 /* HttpUtility.swift */,
 				7082DBBC291834E500400374 /* GitResource.swift */,
 			);
 			path = Network;
@@ -301,6 +265,8 @@
 		7082DBF7291ABD8E00400374 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70BDD4C2291D476F003EC0C8 /* GitModels.framework */,
+				70BDD4C3291D476F003EC0C8 /* GitUtility.framework */,
 				7082DBF8291ABD8E00400374 /* GitNetwork.framework */,
 			);
 			name = Frameworks;
@@ -437,20 +403,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7082DBB92918349D00400374 /* HttpUtility.swift in Sources */,
 				7082DB97291709A700400374 /* GitTableViewCell.swift in Sources */,
-				7082DBA22917127400400374 /* UIView+Extension.swift in Sources */,
 				7082DBBD291834E500400374 /* GitResource.swift in Sources */,
 				7082DBAA2918256600400374 /* GitDetailsViewController.swift in Sources */,
-				7082DBC529183ABE00400374 /* Constants.swift in Sources */,
 				7082DB64291705AA00400374 /* ViewController.swift in Sources */,
 				7082DB9B291709FC00400374 /* GitHomeViewController.swift in Sources */,
 				7082DB932917097C00400374 /* GitDetailsView.swift in Sources */,
 				7082DB60291705AA00400374 /* AppDelegate.swift in Sources */,
 				7082DBCE291AB43D00400374 /* FavoritesViewController.swift in Sources */,
-				7082DBAE29182FD600400374 /* UIImage+Extension.swift in Sources */,
-				7082DBA6291712AE00400374 /* UserDefaults+Extension.swift in Sources */,
-				7082DBB4291831FC00400374 /* GitDataModel.swift in Sources */,
 				7082DB62291705AA00400374 /* SceneDelegate.swift in Sources */,
 				7082DBC12918358400400374 /* GitViewModel.swift in Sources */,
 			);
@@ -460,21 +420,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7082DBA32917127400400374 /* UIView+Extension.swift in Sources */,
 				7082DBC22918358400400374 /* GitViewModel.swift in Sources */,
 				7082DB77291705AC00400374 /* iOS_AssessmentTests.swift in Sources */,
 				7082DBAB2918256600400374 /* GitDetailsViewController.swift in Sources */,
-				7082DBAF29182FD600400374 /* UIImage+Extension.swift in Sources */,
 				7082DB942917097C00400374 /* GitDetailsView.swift in Sources */,
 				7082DB9C291709FC00400374 /* GitHomeViewController.swift in Sources */,
 				7082DB9E29170B5A00400374 /* AppDelegate.swift in Sources */,
 				7082DB98291709A700400374 /* GitTableViewCell.swift in Sources */,
 				7082DBBE291834E500400374 /* GitResource.swift in Sources */,
-				7082DBB5291831FC00400374 /* GitDataModel.swift in Sources */,
-				7082DBC629183ABE00400374 /* Constants.swift in Sources */,
-				7082DBA7291712AE00400374 /* UserDefaults+Extension.swift in Sources */,
 				7082DBCF291AB43D00400374 /* FavoritesViewController.swift in Sources */,
-				7082DBBA2918349D00400374 /* HttpUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,20 +436,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7082DBBB2918349D00400374 /* HttpUtility.swift in Sources */,
 				7082DB9F29170B5B00400374 /* AppDelegate.swift in Sources */,
-				7082DBA42917127400400374 /* UIView+Extension.swift in Sources */,
 				7082DBBF291834E500400374 /* GitResource.swift in Sources */,
 				7082DBAC2918256600400374 /* GitDetailsViewController.swift in Sources */,
-				7082DBC729183ABE00400374 /* Constants.swift in Sources */,
 				7082DB99291709A700400374 /* GitTableViewCell.swift in Sources */,
 				7082DB952917097C00400374 /* GitDetailsView.swift in Sources */,
 				7082DB9D291709FC00400374 /* GitHomeViewController.swift in Sources */,
 				7082DB83291705AC00400374 /* iOS_AssessmentUITestsLaunchTests.swift in Sources */,
 				7082DBD0291AB43D00400374 /* FavoritesViewController.swift in Sources */,
-				7082DBB029182FD600400374 /* UIImage+Extension.swift in Sources */,
-				7082DBA8291712AE00400374 /* UserDefaults+Extension.swift in Sources */,
-				7082DBB6291831FC00400374 /* GitDataModel.swift in Sources */,
 				7082DB81291705AC00400374 /* iOS_AssessmentUITests.swift in Sources */,
 				7082DBC32918358400400374 /* GitViewModel.swift in Sources */,
 			);

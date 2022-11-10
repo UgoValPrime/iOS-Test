@@ -5,6 +5,12 @@
       location = "group:GitNetwork/GitNetwork.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:GitModels/GitModels.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GitUtility/GitUtility.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "container:iOS-Assessment.xcodeproj">
    </FileRef>
 </Workspace>

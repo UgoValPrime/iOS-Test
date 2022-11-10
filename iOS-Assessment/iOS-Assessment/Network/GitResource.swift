@@ -7,6 +7,8 @@
 
 import UIKit
 import GitNetwork
+import GitModels
+import GitUtility
 
 protocol GitProtocol{
     func getNewsData(PageNumber: Int, completion: @escaping(Result<GitDataResponse, UserError>) -> Void)
@@ -18,8 +20,6 @@ struct GitResource: GitProtocol {
   
     private var httpUtility: UtilityService
     private var urlString: String = "\(API.baseUrl)\(API.path)\(API.param)"
-    
-    static let cache = NSCache<NSString, UIImage>()
     
     init(httpUtility: UtilityService = HTTPUtility()){
         self.httpUtility = httpUtility

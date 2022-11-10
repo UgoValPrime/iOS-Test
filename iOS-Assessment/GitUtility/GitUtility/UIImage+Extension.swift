@@ -9,9 +9,9 @@ import UIKit
 
 extension UIImageView {
      
-    var cache: NSCache<NSString, UIImage> { GitResource.cache }
+    public var cache: NSCache<NSString, UIImage> { API.cache }
     
-    func downloadImage(from urlString: String) {
+    public func downloadImage(from urlString: String) {
        
         let cacheKey = NSString(string: urlString)
         if let image = cache.object(forKey: cacheKey) {

@@ -1,17 +1,17 @@
 //
 //  GitDataModel.swift
-//  iOS-Assessment
+//  GitModels
 //
-//  Created by Ugo Val on 06/11/2022.
+//  Created by Ugo Val on 10/11/2022.
 //
 
 import Foundation
 
 // MARK: - GitDataResponse
-struct GitDataResponse: Codable {
-    let totalCount: Int
-    let incompleteResults: Bool
-    let items: [Item]
+public struct GitDataResponse: Codable {
+    public let totalCount: Int
+    public let incompleteResults: Bool
+    public let items: [Item]
 
     enum CodingKeys: String, CodingKey {
         case totalCount = "total_count"
@@ -21,20 +21,20 @@ struct GitDataResponse: Codable {
 }
 
 // MARK: - Item
-struct Item: Codable, Hashable {
-    let login: String
-    let id: Int
-    let nodeID: String
-    let avatarURL: String
-    let gravatarID: String
-    let url, htmlURL, followersURL: String
-    let followingURL, gistsURL, starredURL: String
-    let subscriptionsURL, organizationsURL, reposURL: String
-    let eventsURL: String
-    let receivedEventsURL: String
-    let type: TypeEnum
-    let siteAdmin: Bool
-    let score: Int
+public struct Item: Codable, Hashable {
+    public let login: String
+    public let id: Int
+    public let nodeID: String
+    public let avatarURL: String
+    public let gravatarID: String
+    public let url, htmlURL, followersURL: String
+    public let followingURL, gistsURL, starredURL: String
+    public let subscriptionsURL, organizationsURL, reposURL: String
+    public let eventsURL: String
+    public let receivedEventsURL: String
+    public let type: TypeEnum
+    public let siteAdmin: Bool
+    public let score: Int
 
 
     enum CodingKeys: String, CodingKey {
@@ -59,31 +59,31 @@ struct Item: Codable, Hashable {
     }
 }
 
-enum TypeEnum: String, Codable {
+public enum TypeEnum: String, Codable {
     case organization = "Organization"
     case user = "User"
 }
 
-extension Item {
-    var headerFirstLetter: String {
+ extension Item {
+     public var headerFirstLetter: String {
         return String(self.login[self.login.startIndex]).uppercased()
     }
 }
 
 
-struct FollowResponeData: Codable {
-    let login: String?
-    let id: Int?
-    let nodeID: String?
-    let avatarURL: String?
-    let gravatarID: String?
-    let url, htmlURL, followersURL: String?
-    let followingURL, gistsURL, starredURL: String?
-    let subscriptionsURL, organizationsURL, reposURL: String?
-    let eventsURL: String?
-    let receivedEventsURL: String?
-    let type: TypeEnum?
-    let siteAdmin: Bool?
+public struct FollowResponeData: Codable {
+    public let login: String?
+    public let id: Int?
+    public let nodeID: String?
+    public let avatarURL: String?
+    public let gravatarID: String?
+    public let url, htmlURL, followersURL: String?
+    public let followingURL, gistsURL, starredURL: String?
+    public let subscriptionsURL, organizationsURL, reposURL: String?
+    public let eventsURL: String?
+    public let receivedEventsURL: String?
+    public let type: TypeEnum?
+    public let siteAdmin: Bool?
 
     enum CodingKeys: String, CodingKey {
         case login, id

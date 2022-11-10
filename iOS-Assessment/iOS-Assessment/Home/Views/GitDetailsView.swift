@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import GitModels
+import GitUtility
 
 class GitDetailsView: UIView {
 

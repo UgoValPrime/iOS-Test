@@ -7,6 +7,7 @@
 
 import Foundation
 import Network
+import GitModels
 
 protocol GitDelegate: AnyObject{
     func didReceiveData(_ data: GitDataResponse?)

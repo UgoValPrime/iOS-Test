@@ -7,6 +7,8 @@
 
 import UIKit
 import SafariServices
+import GitModels
+import GitUtility
 
 class GitDetailsViewController: UIViewController {
  

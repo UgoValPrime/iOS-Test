@@ -6,14 +6,15 @@
 //
 
 import Foundation
+import GitModels
 
 extension UserDefaults {
-    enum UserDefaultKeys: String {
+    public enum UserDefaultKeys: String {
         case newsData
         case favData
     }
     
-    var offlineNews: GitDataResponse? {
+    public var offlineNews: GitDataResponse? {
         get{
             get(key: UserDefaultKeys.newsData.rawValue, type: GitDataResponse.self)
         }
@@ -22,7 +23,7 @@ extension UserDefaults {
         }
     }
     
-    var faves:[Item]? {
+    public var faves:[Item]? {
         get{
             get(key: UserDefaultKeys.favData.rawValue, type: [Item].self)
         }
@@ -60,7 +61,7 @@ extension UserDefaults {
 
 
 extension Array where Element: Hashable {
-    func removingDuplicates() -> [Element] {
+    public func removingDuplicates() -> [Element] {
         var addedDict = [Element: Bool]()
 
         return filter {
@@ -68,7 +69,7 @@ extension Array where Element: Hashable {
         }
     }
 
-    mutating func removeDuplicates() {
+    public mutating func removeDuplicates() {
         self = self.removingDuplicates()
     }
 }
